@@ -1,7 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
-import { Header } from '../../2-useEffect/toursProject/Header';
 import { Color } from './Color';
+import { Header } from './Header';
+import './App.css';
 
 const Hexa = () => {
 	const options = 'abcdef0123456789'.toUpperCase();
