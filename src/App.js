@@ -1,9 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { HexaGen } from './HexaGen';
 
-const App=()=>{
-
-
-    return (
-        
-    )
-}
+export const App = () => {
+	return <HexaGen />;
+};
